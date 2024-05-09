@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Description</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .description-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .important-text {
+    font-weight: bold;
+    font-size: 20px;
+    color: #d35400;
+    margin: 20px 0;
+  }
+  .start-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2ecc71;
+    cursor: pointer;
+    animation: neonCycle 3s infinite alternate;
+  }
+  @keyframes neonCycle {
+    from {
+      box-shadow: 0 0 10px #2ecc71, 0 0 20px #2ecc71, 0 0 30px #2ecc71, 0 0 40px #27ae60, 0 0 70px #27ae60, 0 0 80px #27ae60, 0 0 100px #27ae60, 0 0 150px #27ae60;
+    }
+    to {
+      box-shadow: 0 0 5px #2ecc71, 0 0 10px #2ecc71, 0 0 15px #2ecc71, 0 0 20px #27ae60, 0 0 35px #27ae60, 0 0 40px #27ae60, 0 0 50px #27ae60, 0 0 75px #27ae60;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="description-container">
+    <p class="important-text">Note</p>
+    <p>For Every New Test You Will Be Provided New Username and Password</p>
+    <button class="start-button" onclick="location.href='YOUR_SECOND_PAGE_URL_HERE'">LET'S START TEST</button>
+  </div>
+<script>
+  // JavaScript can be added here for additional functionality
+</script>
+</body>
+</html>
